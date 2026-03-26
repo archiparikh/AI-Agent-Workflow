@@ -1,0 +1,13 @@
+# AI Agent Workflow – Python dependencies
+#
+# The core package uses the Python standard library only.
+# Install the extras below to enable real LLM integrations.
+
+# ── Testing ────────────────────────────────────────────────────────────────
+pytest>=7.4
+
+# ── Optional: real LLM integrations (uncomment as needed) ─────────────────
+# openai>=1.0          # OpenAI GPT-4 / GPT-3.5
+# anthropic>=0.20      # Anthropic Claude
+# google-generativeai  # Google Gemini
+# langchain>=0.2       # LangChain orchestration layer
